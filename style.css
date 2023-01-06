@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:slnt,wght@-5,327&family=Lato&family=Nunito:ital,wght@0,200;0,300;0,400;1,300&family=PT+Serif:ital,wght@1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Rubik:wght@500&family=Work+Sans:wght@400;600&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #ecc466;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    box-shadow:10px 10px 10px black ;
+
+}
+.card{
+    padding: 60px 40px;
+    background: rgb(223, 203, 90);
+}
+.image{
+    width: 140px;
+    height: 150px;
+    margin: auto;
+    padding: 1px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.btn-section{
+    background: #ecc466;
+    padding: 50px 50px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+ .social-media{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 10px;
+    text-align: center;
+
+}
+.social-media i{
+    width: 40px;
+    height: 40px;
+    background: rgba(41, 35, 15, 0.086);
+    border-radius: 50%;
+    line-height: 40px;
+    margin-top: 10px;
+    color: #101102;
+}
+.name{
+    text-align: centre;
+    margin: 20px;
+    color: #171717;
+    font-size: 28px;
+    font-weight: 500;
+}
+.profile{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+.more{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+
+}
+.setting{
+    padding: 10px;
+    color:black;
+}
+.setting a{
+    color: black;
+    font-size: 12px;
+}
+ .btn-section .social-media a:hover{
+    color: white;
+    background: blue;
+}
